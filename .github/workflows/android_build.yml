@@ -33,7 +33,7 @@ jobs:
         run: ./gradlew assembleRelease
 
       - name: Archive APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: android-release-apk
           path: youtube-prem/app/build/outputs/apk/release/*.apk
