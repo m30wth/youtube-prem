@@ -1,0 +1,23 @@
+# .gitignore
+
+# Gradle files
+*.gradle
+/build/
+
+# Android specific
+/app/build/
+/local.properties
+
+# Kotlin/Java specific
+*.iml
+*.iws
+*.iws
+.idea/
+
+# Logs and temporary files
+*.log
+tmp/
+
+# IDE specific
+.DS_Store
+.vscode/
